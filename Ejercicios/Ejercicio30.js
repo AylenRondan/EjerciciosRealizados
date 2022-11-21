@@ -6,12 +6,8 @@
 const prompt = require("prompt-sync")({ sigint: true });
 const str = prompt("Ingrese una palabra: ");
 
-arraystr = [str];
+array = [str.split('')];
 
-for (var i = 0; i < arraystr.length; i++) {
-    if(str[i] === 's'){
-       
-    }
+for(var i = 0; i < array.length; i++) {
+    
 }
-    TODO
-
